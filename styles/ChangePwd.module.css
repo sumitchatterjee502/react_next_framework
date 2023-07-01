@@ -1,0 +1,13 @@
+.body{
+    background-image:url("../public/image/change_password_bg-01-01.jpg") !important;
+    background-size: cover;
+    font-size: 14px;
+    height: 100vh;
+}
+.wraper{
+    padding: 30px 50px;
+}
+
+.changePasswordWarp {
+    padding: 30px 50px;
+}

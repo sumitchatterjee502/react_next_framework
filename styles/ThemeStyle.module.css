@@ -1,0 +1,235 @@
+.dflex {
+    display: flex !important;
+}
+
+.flexcolumn {
+    flex-direction: column !important;
+}
+.navItem{
+    color: #6e707e;
+    border-color: #dddfeb #dddfeb #fff;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.navLink {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.ANavLink{
+    align-items: center;
+    display: flex;
+    height: 4.375rem;
+    padding: 0 0.75rem
+}
+.logOutNavLink{
+    display: flex;
+    align-items: center;
+}
+.mx1 {
+    margin-left: 0.25rem!important;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbarNav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    position: static;
+    float: none;
+}
+
+.navbarExpand {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.navbarBrand {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+.navbarBrand:hover{
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+.navbarLight{
+    color: rgba(0, 0, 0, 0.9);
+} 
+.navbarBrand:focus{
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+.dBlock {
+    display: block !important;
+}
+.dNone {
+    display: none !important;
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.justifyContentCenter {
+    justify-content: center !important;
+}
+.topbarDivider {
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+.imgProfile{
+    height: 2rem;
+    width: 2rem;
+}
+
+.card {
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+}
+
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.castomCard {
+    max-height: 63vh;
+    overflow-y: scroll;
+}
+.userTableRow th{
+    color: #fff;
+    font-size: 11px;
+}
+.pending_table th {
+    color: #fff;
+    background-color: #ff8c00;
+    border-bottom: 2px solid #e3e6f0;
+    border-top: 1px solid #e3e6f0;
+    padding: 0.75rem;
+    font-size: 11px;
+}
+.alignMiddle {
+    vertical-align: middle!important;
+    text-align: center;
+}
+.userTableRow th{
+    background-color: #4e73df!important;
+    font-size: 11px ;
+}
+
+.userList_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 30%;
+}
+.userList_header h1 {
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.formWrapper{
+    font-size: 14px!important;
+    padding: 10px 5px!important;
+    margin: 0 auto!important;
+    width: auto!important;
+}
+
+.formWrapper label{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #858796;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.35rem;
+    color: #858796;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.addButton {
+    border: 0.5px dashed blue!important;
+    color: #4169e1!important;
+    height: 20px!important;
+    margin-left: 30px;
+    margin-top: 7px;
+    padding: 0 5px!important;
+    width: 50px;
+}
+.addButton span {
+    font-size: 15px;
+}
+
+.addBtn{
+    font-size: 12px !important;
+}
+
+.addUserTableRow td input:not(.toggleCheck) {
+   
+    border: none;
+    outline: none;
+}
+.addUserTableRow td input[type='checkbox']{
+    border: 1px solid #4e73df;
+}
+
+.active{
+    font-weight: 800;
+    color: #0d6efd !important;
+    border-bottom: 2px solid;
+}
+.head h1{
+    color: #a9a9a9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.textStyleGreen{
+    color: green;
+    font-weight: bold;
+}
+.textStyleRed{
+    color: red;
+    font-weight: bold;
+}
+@media (min-width: 576px) {
+    .dSmNone {
+      display: none !important;
+    }
+
+    .dSmBlock {
+        display: block !important;
+    }
+}

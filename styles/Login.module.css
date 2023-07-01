@@ -1,0 +1,57 @@
+.body{
+    background-image: url("../public/image/login_bg.jpg");
+    background-size: cover;
+    font-size: 14px;
+    height: 100vh
+}
+.wraper{
+    /* width: 100%; */
+    padding: 50px;
+}
+
+.logoWraper{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+.headerWraper{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.header{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.headerh1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 80%;
+    color: #3232dd;
+}
+.admin{
+    font-size: 20px;
+    font-weight: 700;
+    color: darkgrey;
+}
+.formWraper{
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+}
+.formControl{
+    font-size: 14px;
+    padding: 10px 5px;
+    transition-duration: 0.3s;
+}
